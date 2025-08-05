@@ -20,7 +20,7 @@ RUN chown -R www-data:www-data /var/www && \
     chmod -R 755 /var/www && \
     chmod -R 775 /var/www/cache
 
-RUN composer install --prefer-dist --no-dev --optimize-autoloader --no-interaction
+RUN composer install --prefer-dist --no-dev --optimize-autoloader --no-interaction --ignore-platform-req=ext-mongodb
 
 RUN php saya key
 RUN php saya view:cache
