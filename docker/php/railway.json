@@ -1,0 +1,12 @@
+{
+    "build": {
+        "env": {
+            "COMPOSER_ALLOW_SUPERUSER": "1"
+        }
+    },
+    "deploy": {
+        "startCommand": null,
+        "healthcheckPath": "/",
+        "restartPolicyType": "ON_FAILURE"
+    }
+}

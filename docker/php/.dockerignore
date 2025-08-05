@@ -1,0 +1,15 @@
+node_modules
+vendor
+storage/*.key
+.env
+.env.*
+.git
+.gitignore
+docker-compose.yml
+Dockerfile
+railway.json
+tests
+phpunit.xml
+composer.lock
+README.md
+*.log
